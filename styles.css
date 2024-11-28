@@ -1,0 +1,62 @@
+body{
+    background-image:url(images/pexels-gaurav-nik-341167345-14256158.jpg) ;
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    backface-visibility: visible;
+    margin: 0;
+    height: 100;
+    justify-content: center;
+    background-attachment: fixed;
+    display: grid;
+    
+}
+.gatitos{
+    
+    width: 300px; /* Ancho de la imagen */
+    height: auto; /* Ajusta automáticamente la altura */
+    margin: 0 auto; /* Centra horizontalmente */
+    display: block; /* Asegura que se comporte como un bloque */
+    background-color: rgba(231, 214, 214, 0.8); /* Fondo */
+    border-radius: 30px; /* Bordes redondeados */
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5); /* Sombra */
+    padding: 15px; /* Espaciado interno */
+}
+#titulo{
+    width: 50%;
+    justify-content: center;
+    margin: 0 auto;
+    color: rgb(216, 165, 165);
+    text-align: center;
+    align-content: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    border-color: rgb(77, 20, 20);
+    background-color: rgb(106, 15, 15);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0);
+}
+p{
+    width: 50%;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+    border-style: hidden;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    font-size: 18px;
+
+}
+.footer {
+    background-color: #4F3F84;
+    color: #FFF;
+    text-align: center;
+    padding: 20px;
+}
+.video{
+    width: auto;
+    height: 300px;
+    margin: 0 auto;
+    display: block; 
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0);
+    text-align: center;
+}
